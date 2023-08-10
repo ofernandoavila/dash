@@ -1,22 +1,14 @@
-backend/.phpunit.cache
-backend/node_modules
-backend/public/build
-backend/public/hot
-backend/public/storage
-backend/storage/*.key
-backend/vendor
-backend/.env
-backend/.env.backup
-backend/.env.production
-backend/.phpunit.result.cache
-backend/Homestead.json
-backend/Homestead.yaml
-backend/auth.json
-backend/npm-debug.log
-backend/yarn-error.log
-backend/.fleet
-backend/.idea
-backend/.vscode
+
+###> symfony/framework-bundle ###
+backend/.env.local
+backend/.env.local.php
+backend/.env.*.local
+backend/config/secrets/prod/prod.decrypt.private.php
+backend/public/bundles/
+backend/var/
+backend/vendor/
+###< symfony/framework-bundle ###
+
 
 
 # FRONTEND
